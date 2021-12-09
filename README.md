@@ -1,2 +1,8 @@
 # SyncVR_Fibonacci
+ *Instructions*
  
+To open the app go to SyncVR_Demo, where you can find the .exe of the app to launch it. There's also a folder named "SyncVR_APK" with an APK for mobile devices (tested on Android). The app consists of 1 scene, with 2 buttons, one button has "Next number" in it and when you press that button it shows the fibonacci sequence, the more you press the button the more numbers will show up, in the top right there is an exit button to close the app, this works on both Android and PC.
+
+*Design Choices*
+
+I have chosen for a dark shade of blue, with yellow fonts. This makes it easier for people to read as it's a dark background with a light font. I added a small piece of text in the center underneath the tile and made the numbers appear on the bottom of the display. I also added an Elipsis in case the user clicks the button a lot, which will show three dots at the end, this makes sure the app doesn't get overloaded when the user keeps on clicking the button, even when they can't see any more numbers. This is to make sure the app doesn't get overloaded which could cause the app to slow down and cause an unpleasant experience. Instead of a menu where the user has to click twice to exit the app I decided to create just one button in the top right corner which the user can click on to exit the app. This makes it easier to exit the app and requires less clicking/tapping overall. The buttons (and thus the numbers) make a pop sound when clicked on. This is a fast sound and doesn't have too high of a pitch. This is quite a fast sound effect and may be fun for people to hear, especially when they keep on clicking the button.
